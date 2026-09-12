@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+    color: #222;
+    background-color: #fffdf7;
+}
+
+
+/* Hero Section */
+
+.hero {
+    min-height: 90vh;
+    background: #172b4d;
+
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 60px 8%;
+    gap: 50px;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.small-title {
+    letter-spacing: 4px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+
+    text-decoration: none;
+    color: #172b4d;
+    background: #f4c95d;
+
+    padding: 12px 25px;
+    border-radius: 5px;
+
+    font-weight: bold;
+}
+
+.button:hover {
+    background: white;
+}
+
+
+/* Hero Image */
+
+.hero-image img {
+    width: 300px;
+    height: 370px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+
+    border: 6px solid #f4c95d;
+}
+
+
+/* Common Section */
+
+.section {
+    padding: 70px 10%;
+}
+
+.section h2 {
+    text-align: center;
+    font-size: 35px;
+
+    color: #172b4d;
+
+    margin-bottom: 30px;
+}
+
+.section > p {
+    max-width: 900px;
+    margin: 15px auto;
+
+    text-align: center;
+}
+
+
+/* Light Section */
+
+.light {
+    background-color: #f3f0e8;
+}
+
+
+/* Cards */
+
+.cards {
+    display: flex;
+    justify-content: center;
+
+    gap: 25px;
+
+    margin-top: 40px;
+}
+
+.card {
+    background: white;
+
+    padding: 30px;
+
+    width: 30%;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+    text-align: center;
+}
+
+.card h3 {
+    color: #172b4d;
+
+    margin-bottom: 15px;
+}
+
+
+/* Contributions */
+
+.center-text {
+    margin-bottom: 35px !important;
+}
+
+.contributions {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 25px;
+
+    max-width: 900px;
+
+    margin: auto;
+}
+
+.contribution {
+    padding: 25px;
+
+    border-left: 5px solid #f4c95d;
+
+    background: #f3f0e8;
+}
+
+.contribution h3 {
+    color: #172b4d;
+
+    margin-bottom: 10px;
+}
+
+
+/* Timeline */
+
+.timeline {
+    max-width: 800px;
+
+    margin: auto;
+}
+
+.timeline-item {
+    display: flex;
+
+    gap: 30px;
+
+    padding: 20px;
+
+    border-left: 3px solid #172b4d;
+}
+
+.timeline-item span {
+    font-weight: bold;
+
+    color: #172b4d;
+
+    min-width: 60px;
+}
+
+
+/* 1729 Section */
+
+.number-section {
+    background: #172b4d;
+
+    color: white;
+
+    padding: 70px 10%;
+
+    text-align: center;
+}
+
+.number-box {
+    max-width: 700px;
+
+    margin: auto;
+}
+
+.number-box h2 {
+    font-size: 80px;
+
+    color: #f4c95d;
+
+    margin-bottom: 10px;
+}
+
+.number-box p {
+    font-size: 18px;
+}
+
+.formula {
+    margin-top: 20px;
+
+    font-size: 25px !important;
+
+    color: #f4c95d;
+}
+
+
+/* Quote */
+
+.quote-section {
+    padding: 70px 10%;
+
+    text-align: center;
+
+    background: #f4c95d;
+}
+
+.quote {
+    font-size: 28px;
+
+    font-style: italic;
+
+    max-width: 800px;
+
+    margin: auto;
+}
+
+.author {
+    margin-top: 20px;
+
+    font-weight: bold;
+}
+
+
+/* Facts */
+
+.facts {
+    max-width: 800px;
+
+    margin: auto;
+
+    list-style: none;
+}
+
+.facts li {
+    background: #f3f0e8;
+
+    padding: 15px 20px;
+
+    margin: 12px 0;
+
+    border-radius: 5px;
+}
+
+.facts li::before {
+    content: "✓ ";
+
+    color: #172b4d;
+
+    font-weight: bold;
+}
+
+
+/* Legacy */
+
+.legacy {
+    background: #172b4d;
+
+    color: white;
+
+    text-align: center;
+}
+
+.legacy h2 {
+    color: #f4c95d;
+}
+
+.legacy p {
+    max-width: 800px;
+
+    margin: 15px auto;
+}
+
+.legacy h3 {
+    margin-top: 30px;
+
+    color: #f4c95d;
+}
+
+
+/* Footer */
+
+footer {
+    background: #0d1b2a;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    .hero {
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .hero-image img {
+        width: 250px;
+        height: 310px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .contributions {
+        grid-template-columns: 1fr;
+    }
+
+    .timeline-item {
+        gap: 15px;
+    }
+
+    .number-box h2 {
+        font-size: 60px;
+    }
+
+    .quote {
+        font-size: 22px;
+    }
+}
